@@ -12,11 +12,11 @@ ruby details.rb 9080
 # How to run with docker
 
 ```bash
-# Build Docker Image for rating service
-docker build -t ratings .
+# Build Docker Image for Details service
+docker build -t Details .
 
-# Run ratings service on port 8080
-docker run -d --name detail -p 8081:8081 details
+# Run Details service on port 8080
+docker run -d --name details -p 8081:8081 details
 ```
 
 * Test with path `/details/1` and `/health`
