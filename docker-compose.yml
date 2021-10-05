@@ -1,0 +1,7 @@
+services:
+  details:
+    build: .
+    image: ghcr.io/bordee2000/bookinfo-detail:dev
+    ports:
+      - "8081:8081"
+    
